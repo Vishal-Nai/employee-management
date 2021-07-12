@@ -1,0 +1,41 @@
+.sidebar-container {
+  height: 100vh;
+  background: #142551;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.logo h2 {
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  min-height: 50px;
+  min-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sidebar-container ul {
+  padding: 0;
+
+  li {
+    list-style: none;
+    padding: 15px;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+
+  li:active,
+  li:hover {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}

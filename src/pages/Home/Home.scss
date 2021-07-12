@@ -1,0 +1,46 @@
+.main-container {
+  flex-wrap: nowrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px;
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+  min-height: 480px;
+  margin: 0 auto;
+}
+.login-block {
+  width: 50%;
+  height: auto;
+  padding: 25px 40px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.signup-block {
+  width: 50%;
+  height: auto;
+  padding: 0 40px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .signup-btn{
+    background-color: transparent;
+    border-color: #FFFFFF;
+  }
+}
