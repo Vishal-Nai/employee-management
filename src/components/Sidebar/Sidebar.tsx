@@ -32,11 +32,9 @@ export const Sidebar = (props: Props) => {
         selectedKeys={[location.pathname]}
       >
         {menuOptions.map((menu: MenuNode) => (
-          <>
-            <Menu.Item key={menu.key}>
-              <Link to={menu.link}>{menu.title}</Link>
-            </Menu.Item>
-          </>
+          <Menu.Item key={menu.key}>
+            <Link to={menu.link}>{menu.title}</Link>
+          </Menu.Item>
         ))}
       </Menu>
     </Layout.Sider>

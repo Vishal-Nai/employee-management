@@ -8,7 +8,10 @@ input {
   border: none;
   padding: 12px 15px;
   margin: 8px 0;
-  width: 100%;
+  width: 75%;
+}
+input[type='checkbox'] {
+  width: 20px;
 }
 
 button {
@@ -35,10 +38,6 @@ button {
   }
 }
 
-.mt-10 {
-  margin-top: 10px;
-}
-
 .d-flex {
   display: flex;
 }
@@ -47,6 +46,32 @@ button {
   justify-content: flex-end;
 }
 
-.content {
-  min-height: 400px;
+//Right side container
+.rightside-container {
+  width: 100%;
+  flex-wrap: wrap;
+
+  .top-header {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 28px;
+    position: relative;
+    padding: 10px;
+  }
+
+  .content {
+    margin-top: 10px;
+    min-height: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 28px;
+    position: relative;
+    padding: 10px;
+  }
 }
